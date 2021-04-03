@@ -2,12 +2,12 @@ var dbd = require("dbd.js")
 var fs = require("fs")
 
 const bot = new dbd.Bot({
-token: "TOKEN",
+token: "NzY0ODA1ODcyNzY1MTA4MjI0.X4Lm-Q.MVRkMzFq3h6zrjTstjNyFOfEBzc",
 prefix: "$getServerVar[prefix]"
 })
  
 bot.status({
-  text: "YOUR BOT BIO",
+  text: "WITH ÑIGHT CLÚB",
   type: "PLAYING",
   time: 12
 })
@@ -16,7 +16,7 @@ bot.onMessage()
 
  // Variable
 bot.variables({
- prefix: "YOUR BOT PREFIX",
+ prefix: "+",
  warn: "0"
 })
 
